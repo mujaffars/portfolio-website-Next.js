@@ -8,12 +8,12 @@ export default function Projects() {
         {
             title: 'Project 1',
             description: 'Description for project 1.',
-            imageUrl: '/path/to/image1.jpg',
+            imageUrl: '/images/project1.png',
         },
         {
             title: 'Project 2',
             description: 'Description for project 2.',
-            imageUrl: '/path/to/image2.jpg',
+            imageUrl: '/images/project2.png',
         },
         {
             title: 'Project 3',
