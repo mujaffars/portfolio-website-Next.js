@@ -22,6 +22,11 @@ export default function Navbar() {
                         </Link>
                     </li>
                     <li>
+                        <Link href="/contentful" legacyBehavior>
+                            <a className="text-white text-lg font-bold hover:text-gray-300 ml-4">Content</a>
+                        </Link>
+                    </li>
+                    <li>
                         <Link href="/contact" legacyBehavior>
                             <a className="text-white text-lg font-bold hover:text-gray-300 ml-4">Contact</a>
                         </Link>
