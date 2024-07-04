@@ -1,8 +1,10 @@
 import Head from 'next/head';
+import Navbar from '../components/Navbar';
 
 export default function About() {
     return (
         <div>
+            <Navbar />
             <Head>
                 <title>About Me</title>
             </Head>
