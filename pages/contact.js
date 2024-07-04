@@ -1,8 +1,10 @@
 import Head from 'next/head';
+import Navbar from '../components/Navbar';
 
 export default function Contact() {
     return (
         <div>
+            <Navbar />
             <Head>
                 <title>Contact Me</title>
             </Head>
