@@ -31,6 +31,11 @@ export default function Navbar() {
                             <a className="text-white text-lg font-bold hover:text-gray-300 ml-4">Contact</a>
                         </Link>
                     </li>
+                    <li>
+                        <Link href="/blogs" legacyBehavior>
+                            <a className="text-white text-lg font-bold hover:text-gray-300 ml-4">Blogs</a>
+                        </Link>
+                    </li>
                 </ul>
             </div>
         </nav>
