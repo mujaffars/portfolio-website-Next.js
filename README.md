@@ -1,3 +1,23 @@
+#### package.json
+
+```
+"dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "contentful": "^10.12.7",
+    "formik": "^2.4.6",
+    "framer-motion": "^11.2.13",
+    "next": "14.2.4",
+    "nprogress": "^0.2.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-spinners": "^0.14.1"
+  }
+```
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
