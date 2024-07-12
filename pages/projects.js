@@ -31,7 +31,7 @@ export default function Projects() {
             <main className="max-w-4xl mx-auto p-8">
                 <h1 className="text-4xl font-bold text-gray-800 mb-4">My Projects</h1>
                 <p className="text-lg text-gray-600 mb-8">
-                    Here are some of the projects I've worked on...
+                    Here are some of the projects I&apos;ve worked on...
                 </p>
                 {projects.map((project, index) => (
                     <ProjectCard

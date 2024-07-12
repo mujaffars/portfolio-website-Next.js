@@ -14,7 +14,7 @@ export default function Home() {
 
             <main className="max-w-4xl mx-auto p-8">
                 <h1 className="text-4xl font-bold text-gray-800 mb-4">Welcome to My Portfolio</h1>
-                <p className="text-lg text-gray-600">Hi, I'm Mujaffar. I am a Software Developer.</p>
+                <p className="text-lg text-gray-600">Hi, I&apos;m Mujaffar. I am a Software Developer.</p>
             </main>
         </div>
     );

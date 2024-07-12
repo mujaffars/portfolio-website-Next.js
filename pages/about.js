@@ -47,8 +47,9 @@ export default function About() {
                         About Me
                     </Heading>
                     <Text fontSize="lg" color="gray.600">
-                        Here's a bit about me...
+                        Here&apos;s a bit about me...
                     </Text>
+                    <UserList />
                     <Button mt={4} onClick={handleOpenModal}>
                         Open Modal
                     </Button>
@@ -60,47 +61,48 @@ export default function About() {
                     />
                 </Container>
 
-                <TableContainer>
-                    <Table variant='striped' colorScheme='teal'>
-                        <TableCaption>Imperial to metric conversion factors</TableCaption>
-                        <Thead>
-                            <Tr>
-                                <Th>To convert</Th>
-                                <Th>into</Th>
-                                <Th isNumeric>multiply by</Th>
-                            </Tr>
-                        </Thead>
-                        <Tbody>
-                            <Tr>
-                                <Td>inches</Td>
-                                <Td>millimetres (mm)</Td>
-                                <Td isNumeric>25.4</Td>
-                            </Tr>
-                            <Tr>
-                                <Td>feet</Td>
-                                <Td>centimetres (cm)</Td>
-                                <Td isNumeric>30.48</Td>
-                            </Tr>
-                            <Tr>
-                                <Td>yards</Td>
-                                <Td>metres (m)</Td>
-                                <Td isNumeric>0.91444</Td>
-                            </Tr>
-                        </Tbody>
-                        <Tfoot>
-                            <Tr>
-                                <Th>To convert</Th>
-                                <Th>into</Th>
-                                <Th isNumeric>multiply by</Th>
-                            </Tr>
-                        </Tfoot>
-                    </Table>
-                </TableContainer>
+                <Container maxW="4xl" py={8}>
+                    <TableContainer>
+                        <Table variant='striped' colorScheme='teal'>
+                            <TableCaption>Imperial to metric conversion factors</TableCaption>
+                            <Thead>
+                                <Tr>
+                                    <Th>To convert</Th>
+                                    <Th>into</Th>
+                                    <Th isNumeric>multiply by</Th>
+                                </Tr>
+                            </Thead>
+                            <Tbody>
+                                <Tr>
+                                    <Td>inches</Td>
+                                    <Td>millimetres (mm)</Td>
+                                    <Td isNumeric>25.4</Td>
+                                </Tr>
+                                <Tr>
+                                    <Td>feet</Td>
+                                    <Td>centimetres (cm)</Td>
+                                    <Td isNumeric>30.48</Td>
+                                </Tr>
+                                <Tr>
+                                    <Td>yards</Td>
+                                    <Td>metres (m)</Td>
+                                    <Td isNumeric>0.91444</Td>
+                                </Tr>
+                            </Tbody>
+                            <Tfoot>
+                                <Tr>
+                                    <Th>To convert</Th>
+                                    <Th>into</Th>
+                                    <Th isNumeric>multiply by</Th>
+                                </Tr>
+                            </Tfoot>
+                        </Table>
+                    </TableContainer>
 
-                <FormikForm />
+                    <FormikForm />
 
-                <CircularProgress value={30} size='120px' />
-                <UserList />
+                    <CircularProgress value={30} size='120px' />
+                </Container>
             </Box>
         </ChakraProvider>
     );
